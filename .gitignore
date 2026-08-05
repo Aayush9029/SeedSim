@@ -1,0 +1,8 @@
+.build/
+build/
+*.app
+*.icns
+Assets.car
+.DS_Store
+.swiftpm/
+xcuserdata/

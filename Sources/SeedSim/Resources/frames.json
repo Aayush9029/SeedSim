@@ -1,0 +1,43 @@
+{
+  "frames": [
+    {
+      "id": "clear-shell",
+      "name": "Clear Shell",
+      "image": "clear-shell",
+      "cutout_image": "clear-shell-cutout",
+      "image_width": 709,
+      "image_height": 709,
+      "center_x_frac": 0.51651,
+      "center_y_frac": 0.50447,
+      "radius_frac": 0.26331,
+      "panel_px": 412,
+      "normalized_to": "steel-white"
+    },
+    {
+      "id": "matte-black",
+      "name": "Matte Black",
+      "image": "matte-black",
+      "cutout_image": "matte-black-cutout",
+      "image_width": 709,
+      "image_height": 709,
+      "center_x_frac": 0.51651,
+      "center_y_frac": 0.50447,
+      "radius_frac": 0.26331,
+      "panel_px": 412,
+      "normalized_to": "steel-white"
+    },
+    {
+      "id": "steel-white",
+      "name": "Steel White",
+      "image": "steel-white",
+      "cutout_image": "steel-white-cutout",
+      "image_width": 709,
+      "image_height": 709,
+      "center_x_frac": 0.51651,
+      "center_y_frac": 0.50447,
+      "radius_frac": 0.26331,
+      "panel_px": 412,
+      "normalized_to": "steel-white"
+    }
+  ]
+}
