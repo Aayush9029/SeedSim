@@ -215,6 +215,9 @@ if [[ "$SIGNING_MODE" == "adhoc" || -z "$APP_IDENTITY" ]]; then
   CODESIGN_ARGS=(--force --sign "-")
 else
   CODESIGN_ARGS=(--force --timestamp --options runtime --sign "$APP_IDENTITY")
+  if [[ -n "${APP_KEYCHAIN:-}" ]]; then
+    CODESIGN_ARGS+=(--keychain "$APP_KEYCHAIN")
+  fi
 fi
 
 # Sign embedded frameworks and their nested binaries before the app bundle.
